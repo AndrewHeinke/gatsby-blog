@@ -8,7 +8,7 @@
       "component": "/Users/Andrew/Desktop/Sites/gatsby-blog/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1512707543440,
+      "updatedAt": 1512716109147,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/Andrew/Desktop/Sites/gatsby-blog/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a869825c5e995bdaeb201130306383b0",
+        "contentDigest": "9aa7be835f282bb1eea21115e8c6197e",
         "owner": "internal-data-bridge"
       }
     },
@@ -247,7 +247,9 @@
         "keywords": [
           "gatsby"
         ],
-        "author": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;",
+        "author": {
+          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -281,11 +283,86 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/Andrew/Desktop/Sites/gatsby-blog/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.14",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "pluginFilepath": "/Users/Andrew/Desktop/Sites/gatsby-blog/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "extract-text-webpack-plugin",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.7"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a620a6c84d0f72e141af2a4c507881e3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/Andrew/Desktop/Sites/gatsby-blog",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "34a7663d425993823c52ddbc7ffce23d",
+      "version": "1413090c7b42ca1ce4f0b0aa926079fa",
       "pluginOptions": {
         "plugins": []
       },
@@ -313,6 +390,10 @@
           {
             "name": "gatsby-plugin-react-helmet",
             "version": "^1.0.8"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.14"
           }
         ],
         "devDependencies": [
@@ -328,7 +409,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0cd197ade069c994dcea153d17c65858",
+        "contentDigest": "accb0df19b46286095e16cee8db37f4f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -339,13 +420,36 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2017-12-08T03:53:31.614Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2017-12-08T06:55:07.603Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "929f136f448f6a4cb5ff265003fdd9fd",
+        "contentDigest": "a386e5566b30edbf78f7d2fb5e1aee3a",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /counter/": {
+      "layout": "index",
+      "jsonName": "counter.json",
+      "internalComponentName": "ComponentCounter",
+      "path": "/counter/",
+      "component": "/Users/Andrew/Desktop/Sites/gatsby-blog/src/pages/counter.js",
+      "componentChunkName": "component---src-pages-counter-js",
+      "context": {},
+      "updatedAt": 1512716109153,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/Andrew/Desktop/Sites/gatsby-blog/src/pages/counter.js",
+      "id": "SitePage /counter/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9b6aabc1908debe5d6d4516c626470a0",
         "owner": "internal-data-bridge"
       }
     },
@@ -357,7 +461,7 @@
       "component": "/Users/Andrew/Desktop/Sites/gatsby-blog/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1512705214579,
+      "updatedAt": 1512716109153,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/Andrew/Desktop/Sites/gatsby-blog/src/pages/404.js",
@@ -366,7 +470,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "21692c899b1e4b16ae49c88d04b74f9c",
+        "contentDigest": "cae7a28e5e3adbbe513d055ac6075c06",
         "owner": "internal-data-bridge"
       }
     },
@@ -378,7 +482,7 @@
       "component": "/Users/Andrew/Desktop/Sites/gatsby-blog/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1512705214580,
+      "updatedAt": 1512716109154,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/Andrew/Desktop/Sites/gatsby-blog/src/pages/index.js",
@@ -387,7 +491,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "65631d25897cfd5a4ea844915b13095b",
+        "contentDigest": "942334720872d81150f7e621ea58bcb9",
         "owner": "internal-data-bridge"
       }
     },
@@ -399,7 +503,7 @@
       "component": "/Users/Andrew/Desktop/Sites/gatsby-blog/src/pages/page-2.js",
       "componentChunkName": "component---src-pages-page-2-js",
       "context": {},
-      "updatedAt": 1512705214580,
+      "updatedAt": 1512716109154,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/Andrew/Desktop/Sites/gatsby-blog/src/pages/page-2.js",
@@ -408,28 +512,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "eeb973c34895a5dd3ff41311565e0278",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404.html": {
-      "layout": "index",
-      "jsonName": "404-html.json",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "/Users/Andrew/Desktop/Sites/gatsby-blog/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "updatedAt": 1512705214582,
-      "pluginCreator___NODE": "Plugin prod-404",
-      "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/Andrew/Desktop/Sites/gatsby-blog/src/pages/404.js",
-      "id": "SitePage /404.html",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "cf6087c0cb8429f1487cce53e31d6187",
+        "contentDigest": "d24d7dded5e5bbc4dfe4503f4c9f6595",
         "owner": "internal-data-bridge"
       }
     },
@@ -441,7 +524,7 @@
       "component": "/Users/Andrew/Desktop/Sites/gatsby-blog/src/pages/page-3.js",
       "componentChunkName": "component---src-pages-page-3-js",
       "context": {},
-      "updatedAt": 1512714944699,
+      "updatedAt": 1512716109155,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/Andrew/Desktop/Sites/gatsby-blog/src/pages/page-3.js",
@@ -450,14 +533,35 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2f425857abd7565ced551bbfadee2200",
+        "contentDigest": "68f42451c19d22ccae3a424b2e1bd500",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/Andrew/Desktop/Sites/gatsby-blog/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "updatedAt": 1512716109159,
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/Andrew/Desktop/Sites/gatsby-blog/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "73ec18550efd1dd821244edde72f80de",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "4b7f3cb8120fb90214c22016e1451857"
+    "PLUGINS_HASH": "2991708b207dd6080470edcf3ba14118"
   },
   "componentDataDependencies": {
     "nodes": {},
